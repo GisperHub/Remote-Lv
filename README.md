@@ -1,3 +1,13 @@
+-- Cancle Quest
+
+local args = {
+    [1] = "AbandonQuest"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+
+
 -- Buggy Quest
 
 local args = {
